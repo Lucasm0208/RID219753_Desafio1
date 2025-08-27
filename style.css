@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "inter";
+    src: url(fontes/Inter_18pt-Regular.ttf);
+}
+*{
+margin: 0px;
+font-family: "inter";}
+
+#div_intro{
+color: #FFFFFF;
+background-color: #303030;
+background-size: cover;
+}
+#titulo_intro{
+padding-top: 150px;
+margin: 0px 0px 0px 60px;
+}
+
+#texto_intro{
+padding-bottom: 100px;
+margin: 20px 0px 0px 60px;}
+
+#div_numeros{
+display: grid;
+grid-auto-flow: column;
+columns: auto;
+gap: 0px;}
+
+#dado1{
+margin-left: 120px;
+}
+
+.dados{
+margin: 50px 0px 50px;
+font-size: large;
+}
+
+#div_texto{
+display: grid;
+grid-template-columns: 800px 0px;
+}
+#titulo_texto{
+margin: 200px 0px 0px 60px;
+grid-column: 1;
+}
+#paragrafo_texto{
+margin: -450px 0px 0px 60px;
+grid-column: 1;
+}
+#imagem_sala{
+margin:50px 0px 50px -50px;
+padding: 0px;
+}
+#div_forms{
+background-color: #303030;
+background-size: cover;
+color: #FFFFFF;
+text-align: center;
+}
+#titulo_forms{
+padding: 50px 0px 50px 0px;
+}
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+}
+#botao1{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+}
